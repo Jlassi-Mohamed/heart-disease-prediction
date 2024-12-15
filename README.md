@@ -1,90 +1,74 @@
-Heart Disease Prediction
+# Heart Disease Prediction
 
 This project is my TP exam in machine learning and aims to predict the likelihood of heart disease using a dataset and various machine learning models. It involves preprocessing the data, training different classifiers, evaluating their performance using metrics like accuracy, precision, recall, and F1-score, and visualizing the results.
 
-Project Overview
+## Project Overview
 
-Features:
+### Features:
 
-Implements the following machine learning models:
+- Implements the following machine learning models:
+  - Logistic Regression
+  - Naive Bayes
+  - Support Vector Machine (SVM)
+  - Decision Tree
+  - Random Forest
 
-Logistic Regression
+- Evaluates models using metrics from `sklearn.metrics`.
 
-Naive Bayes
+- Visualizes results with confusion matrices and an accuracy comparison histogram.
 
-Support Vector Machine (SVM)
+### Dataset:
 
-Decision Tree
+The dataset used is `heart.csv`, which contains features related to heart disease prediction. Ensure the dataset is in the repository or provide the correct path to it.
 
-Random Forest
+### Clone the repository:
 
-Evaluates models using metrics from sklearn.metrics.
-
-Visualizes results with confusion matrices and an accuracy comparison histogram.
-
-Dataset:
-
-The dataset used is heart.csv, which contains features related to heart disease prediction. Ensure the dataset is in the repository or provide the correct path to it.
-
-Clone the repository:
-
+```bash
 git clone https://github.com/Jlassi-Mohamed/heart-disease-prediction.git
 
 Navigate to the project directory:
 
 cd heart-disease-prediction
 
-
 Usage
 
-Place the dataset heart.csv in the project directory or specify its path in the script.
-
-Run the script:
+    Place the dataset heart.csv in the project directory or specify its path in the script.
+    Run the script:
 
 python analysis.py
 
 Outputs include:
 
-Confusion matrix images for each model.
-
-A histogram comparing the accuracies of the models.
+    Confusion matrix images for each model.
+    A histogram comparing the accuracies of the models.
 
 File Structure
 
 heart-disease-prediction/
-|— analysis.py           # Main Python script
-|— heart.csv            # Dataset (ensure it’s in the directory or update the script path)
-|— README.md            # Project documentation
+|— analysis.py # Main Python script
+|— heart.csv # Dataset (ensure it’s in the directory or update the script path)
+|— README.md # Project documentation
 |— confusion_matrix_*.png # Confusion matrix images for each model
-|— model_accuracies.png  # Histogram comparing accuracies
+|— model_accuracies.png # Histogram comparing accuracies
 
 Results
 
-The script identifies the best model based on accuracy and provides a detailed classification report.
-
-Confusion matrices for each model are saved as PNG files.
-
-A comparison histogram of model accuracies is saved as model_accuracies.png.
+    The script identifies the best model based on accuracy and provides a detailed classification report.
+    Confusion matrices for each model are saved as PNG files.
+    A comparison histogram of model accuracies is saved as model_accuracies.png.
 
 Dependencies
 
-Python 3.x
-
-pandas
-
-numpy
-
-matplotlib
-
-scikit-learn
-
-
+    Python 3.x
+    pandas
+    numpy
+    matplotlib
+    scikit-learn
 
 Example Output
 
-Confusion Matrix: confusion_matrix_logistic_regression.png, etc.
-
-Accuracy Histogram: model_accuracies.png
+    Confusion Matrix: confusion_matrix_logistic_regression.png, etc.
+    Accuracy Histogram: model_accuracies.png
 
 Author
 
