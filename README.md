@@ -25,7 +25,7 @@ The dataset used is `heart.csv`, which contains features related to heart diseas
 
 ```bash
 git clone https://github.com/Jlassi-Mohamed/heart-disease-prediction.git
-
+```
 Navigate to the project directory:
 
 cd heart-disease-prediction
